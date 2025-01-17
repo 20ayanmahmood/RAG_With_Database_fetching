@@ -27,7 +27,7 @@ os.environ["LANGCHAIN_ENDPOINT"]=os.getenv('LANGCHAIN_ENDPOINT')
 os.environ["LANGCHAIN_API_KEY"]=os.getenv('LANGCHAIN_API_KEY')
 os.environ["LANGCHAIN_PROJECT"]=os.getenv('LANGCHAIN_PROJECT')
 tokens=""
-os.environ['HF_TOKEN'] = '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'
+os.environ['HF_TOKEN'] = ''
 
 # embeddings = GoogleGenerativeAIEmbeddings(model="embedding-001")
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
